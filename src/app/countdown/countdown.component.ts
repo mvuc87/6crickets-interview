@@ -1,11 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Observable, takeWhile, map, timer } from 'rxjs';
-import { RemainingTimeFormatPipe } from './remaining-time-format.pipe';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, RemainingTimeFormatPipe],
+  imports: [CommonModule],
   selector: 'app-countdown',
   templateUrl: './countdown.component.html'
 })
