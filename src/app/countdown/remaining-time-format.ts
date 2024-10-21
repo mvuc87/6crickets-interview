@@ -22,7 +22,7 @@ function pad(input: number, offset = 2): string {
 }
 
 /**
- * Provided a number of seconds, the functions breaks that number into duration,
+ * Provided a number of seconds, the function breaks that number into duration,
  * including days, hours, minutes and seconds. The function formats duration into:
  * ```plain
  * DAYS:HH:MM:SS
