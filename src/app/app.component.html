@@ -1,4 +1,4 @@
-@if (timeLeft && timeLeft.secondsLeft >= 0) {
+@if (timeLeft) {
   <app-countdown [timeLeft]="timeLeft.secondsLeft"></app-countdown>
 } @else {
   <div>Loading...</div>
