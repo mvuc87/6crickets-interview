@@ -9,4 +9,4 @@ This branch contains a slight improvement if a countdown component by including 
 ```plain
 Seconds left to deadline: 2:00:01:10
 ```
-means that there 2 days, 1 minute and 10 seconds remaining to a deadline.
+means that there are 2 days, 1 minute and 10 seconds remaining to a deadline.
